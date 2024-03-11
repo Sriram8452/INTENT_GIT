@@ -183,9 +183,43 @@ public class activity_second extends AppCompatActivity {
     }
 }
 ```
+
+## Androidmanifest.xml
+```<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ex2"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_second" >
+
+        </activity>
+    </application>
+
+</manifest>
+```
 ## OUTPUT:
 ![image](https://github.com/Sriram8452/INTENT_GIT/assets/118708032/23b1f783-95cd-4e35-8bd7-ecf673f8606e)
 ![image](https://github.com/Sriram8452/INTENT_GIT/assets/118708032/9a9ab7b5-cc13-4853-a155-c01b0b6d9f88)
+![Explicit](https://github.com/Sriram8452/INTENT_GIT/assets/118708032/55b130c4-1b01-4bd2-a765-3970f34cba35)
+
 
 
 ## RESULT:
