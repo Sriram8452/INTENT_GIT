@@ -217,6 +217,7 @@ public class activity_second extends AppCompatActivity {
 ```
 ## OUTPUT:
 ![image](https://github.com/Sriram8452/INTENT_GIT/assets/118708032/23b1f783-95cd-4e35-8bd7-ecf673f8606e)
+
 ![image](https://github.com/Sriram8452/INTENT_GIT/assets/118708032/9a9ab7b5-cc13-4853-a155-c01b0b6d9f88)
 ![Explicit](https://github.com/Sriram8452/INTENT_GIT/assets/118708032/55b130c4-1b01-4bd2-a765-3970f34cba35)
 
